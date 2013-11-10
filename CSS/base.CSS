@@ -45,9 +45,27 @@ nav {
     body {
         padding: 3%;
     }
-    nav {
-       width: 100%;
+    
+    h1, h2 {
+        text-align: center;
     }
+    
+    nav {
+       border: 0;
+       width: 100%;
+      
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline; 
+        margin-right: 10px;
+         }
     
     #content {
         clear: left;
@@ -56,6 +74,15 @@ nav {
     }
     
 }
+
+
+
+
+
+
+
+
+
 
 
 
